@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		DB3EE4FD262993D60090B6B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE4FC262993D60090B6B9 /* AppDelegate.swift */; };
 		DB3EE4FF262993D60090B6B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE4FE262993D60090B6B9 /* SceneDelegate.swift */; };
-		DB3EE501262993D60090B6B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE500262993D60090B6B9 /* ViewController.swift */; };
+		DB3EE501262993D60090B6B9 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE500262993D60090B6B9 /* YellowViewController.swift */; };
 		DB3EE504262993D60090B6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3EE502262993D60090B6B9 /* Main.storyboard */; };
 		DB3EE506262993D80090B6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3EE505262993D80090B6B9 /* Assets.xcassets */; };
 		DB3EE509262993D80090B6B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3EE507262993D80090B6B9 /* LaunchScreen.storyboard */; };
+		DB3EE513262997260090B6B9 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE512262997260090B6B9 /* GreenViewController.swift */; };
+		DB3EE51626299A440090B6B9 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE51526299A440090B6B9 /* OrangeViewController.swift */; };
+		DB3EE51926299AD70090B6B9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE51826299AD70090B6B9 /* RootViewController.swift */; };
+		DB3EE524262AB1660090B6B9 /* UIViewController Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE523262AB1660090B6B9 /* UIViewController Extension.swift */; };
+		DB3EE528262ABA7D0090B6B9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DB3EE527262ABA7D0090B6B9 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB3EE4F9262993D60090B6B9 /* LifeCycleUIViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeCycleUIViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3EE4FC262993D60090B6B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB3EE4FE262993D60090B6B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB3EE500262993D60090B6B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB3EE500262993D60090B6B9 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		DB3EE503262993D60090B6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB3EE505262993D80090B6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB3EE508262993D80090B6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB3EE50A262993D80090B6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3EE512262997260090B6B9 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		DB3EE51526299A440090B6B9 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		DB3EE51826299AD70090B6B9 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		DB3EE523262AB1660090B6B9 /* UIViewController Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController Extension.swift"; sourceTree = "<group>"; };
+		DB3EE527262ABA7D0090B6B9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				DB3EE4FB262993D60090B6B9 /* LifeCycleUIViewController */,
+				DB3EE527262ABA7D0090B6B9 /* .gitignore */,
 				DB3EE4FA262993D60090B6B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +67,59 @@
 		DB3EE4FB262993D60090B6B9 /* LifeCycleUIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DB3EE4FC262993D60090B6B9 /* AppDelegate.swift */,
-				DB3EE4FE262993D60090B6B9 /* SceneDelegate.swift */,
-				DB3EE500262993D60090B6B9 /* ViewController.swift */,
-				DB3EE502262993D60090B6B9 /* Main.storyboard */,
-				DB3EE505262993D80090B6B9 /* Assets.xcassets */,
-				DB3EE507262993D80090B6B9 /* LaunchScreen.storyboard */,
-				DB3EE50A262993D80090B6B9 /* Info.plist */,
+				DB3EE51B2629AE2E0090B6B9 /* ViewControllers */,
+				DB3EE522262AB11D0090B6B9 /* Extensions */,
+				DB3EE51D2629AE440090B6B9 /* Storyboards */,
+				DB3EE51E2629AE700090B6B9 /* Supporting */,
+				DB3EE5202629AE7C0090B6B9 /* Resources */,
 			);
 			path = LifeCycleUIViewController;
+			sourceTree = "<group>";
+		};
+		DB3EE51B2629AE2E0090B6B9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB3EE51826299AD70090B6B9 /* RootViewController.swift */,
+				DB3EE500262993D60090B6B9 /* YellowViewController.swift */,
+				DB3EE512262997260090B6B9 /* GreenViewController.swift */,
+				DB3EE51526299A440090B6B9 /* OrangeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DB3EE51D2629AE440090B6B9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DB3EE502262993D60090B6B9 /* Main.storyboard */,
+				DB3EE507262993D80090B6B9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DB3EE51E2629AE700090B6B9 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				DB3EE4FC262993D60090B6B9 /* AppDelegate.swift */,
+				DB3EE4FE262993D60090B6B9 /* SceneDelegate.swift */,
+				DB3EE50A262993D80090B6B9 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		DB3EE5202629AE7C0090B6B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB3EE505262993D80090B6B9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB3EE522262AB11D0090B6B9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB3EE523262AB1660090B6B9 /* UIViewController Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3EE528262ABA7D0090B6B9 /* .gitignore in Resources */,
 				DB3EE509262993D80090B6B9 /* LaunchScreen.storyboard in Resources */,
 				DB3EE506262993D80090B6B9 /* Assets.xcassets in Resources */,
 				DB3EE504262993D60090B6B9 /* Main.storyboard in Resources */,
@@ -137,7 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB3EE501262993D60090B6B9 /* ViewController.swift in Sources */,
+				DB3EE513262997260090B6B9 /* GreenViewController.swift in Sources */,
+				DB3EE51626299A440090B6B9 /* OrangeViewController.swift in Sources */,
+				DB3EE51926299AD70090B6B9 /* RootViewController.swift in Sources */,
+				DB3EE501262993D60090B6B9 /* YellowViewController.swift in Sources */,
+				DB3EE524262AB1660090B6B9 /* UIViewController Extension.swift in Sources */,
 				DB3EE4FD262993D60090B6B9 /* AppDelegate.swift in Sources */,
 				DB3EE4FF262993D60090B6B9 /* SceneDelegate.swift in Sources */,
 			);
@@ -288,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BZ37T979L3;
-				INFOPLIST_FILE = LifeCycleUIViewController/Info.plist;
+				INFOPLIST_FILE = LifeCycleUIViewController/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +367,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BZ37T979L3;
-				INFOPLIST_FILE = LifeCycleUIViewController/Info.plist;
+				INFOPLIST_FILE = LifeCycleUIViewController/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

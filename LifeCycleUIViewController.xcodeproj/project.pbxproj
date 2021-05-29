@@ -16,7 +16,7 @@
 		DB3EE513262997260090B6B9 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE512262997260090B6B9 /* GreenViewController.swift */; };
 		DB3EE51626299A440090B6B9 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE51526299A440090B6B9 /* OrangeViewController.swift */; };
 		DB3EE51926299AD70090B6B9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE51826299AD70090B6B9 /* RootViewController.swift */; };
-		DB3EE524262AB1660090B6B9 /* UIViewController Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE523262AB1660090B6B9 /* UIViewController Extension.swift */; };
+		DB3EE524262AB1660090B6B9 /* Extension + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE523262AB1660090B6B9 /* Extension + UIViewController.swift */; };
 		DB3EE528262ABA7D0090B6B9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DB3EE527262ABA7D0090B6B9 /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +32,7 @@
 		DB3EE512262997260090B6B9 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		DB3EE51526299A440090B6B9 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 		DB3EE51826299AD70090B6B9 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		DB3EE523262AB1660090B6B9 /* UIViewController Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController Extension.swift"; sourceTree = "<group>"; };
+		DB3EE523262AB1660090B6B9 /* Extension + UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIViewController.swift"; sourceTree = "<group>"; };
 		DB3EE527262ABA7D0090B6B9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +117,7 @@
 		DB3EE522262AB11D0090B6B9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				DB3EE523262AB1660090B6B9 /* UIViewController Extension.swift */,
+				DB3EE523262AB1660090B6B9 /* Extension + UIViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -197,7 +197,7 @@
 				DB3EE51626299A440090B6B9 /* OrangeViewController.swift in Sources */,
 				DB3EE51926299AD70090B6B9 /* RootViewController.swift in Sources */,
 				DB3EE501262993D60090B6B9 /* YellowViewController.swift in Sources */,
-				DB3EE524262AB1660090B6B9 /* UIViewController Extension.swift in Sources */,
+				DB3EE524262AB1660090B6B9 /* Extension + UIViewController.swift in Sources */,
 				DB3EE4FD262993D60090B6B9 /* AppDelegate.swift in Sources */,
 				DB3EE4FF262993D60090B6B9 /* SceneDelegate.swift in Sources */,
 			);

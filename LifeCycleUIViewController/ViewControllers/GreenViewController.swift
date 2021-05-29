@@ -8,7 +8,6 @@
 import UIKit
 
 class GreenViewController: UIViewController {
-    
     // MARK: - IB Outlets
     @IBOutlet weak var openThirdVC: UIButton! {
         didSet {
@@ -21,6 +20,13 @@ class GreenViewController: UIViewController {
         didSet {
             print(someProperties ?? "nil")
         }
+    }
+    
+    // MARK: - Deinitializers
+    // Called when the View is being unloaded from memory.
+    // Вызывается, когда View выгружается из памяти.
+    deinit {
+        printTitleFunc()
     }
     
     // MARK: - Override Methods
@@ -116,12 +122,4 @@ class GreenViewController: UIViewController {
     @IBAction func openThirdVCPressed() {
         print("")
     }
-    
-    // MARK: - Public Methods
-    // Called when the View is being unloaded from memory.
-    // Вызывается, когда View выгружается из памяти.
-    deinit {
-        printTitleFunc()
-    }
-    
 }

@@ -8,12 +8,10 @@
 import UIKit
 
 class RootViewController: UIViewController {
-
     // MARK: - Override Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         
         title = "Root VC"
     }
-    
 }

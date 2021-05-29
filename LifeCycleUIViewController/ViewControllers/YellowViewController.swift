@@ -8,6 +8,12 @@
 import UIKit
 
 class YellowViewController: UIViewController {
+    // MARK: - Deinitializers
+    // Called when the View is being unloaded from memory.
+    // Вызывается когда View выгружается из памяти.
+    deinit {
+        printTitleFunc()
+    }
     
     // MARK: - Override Methods
     // Loads View. Not used with storyboards.
@@ -104,12 +110,4 @@ class YellowViewController: UIViewController {
     @IBAction func openSecondVCPressed() {
         print("")
     }
-    
-    // MARK: - Public Methods
-    // Called when the View is being unloaded from memory.
-    // Вызывается когда View выгружается из памяти.
-    deinit {
-        printTitleFunc()
-    }
-    
 }

@@ -98,6 +98,12 @@ class GreenViewController: UIViewController {
         printTitleFunc()
     }
     
+    // Called when there is insufficient memory.
+    // Вызывается в случае нехватки памяти.
+    override func didReceiveMemoryWarning() {
+        printTitleFunc()
+    }
+    
     // Called before hiding the View.
     // Вызывается перед скрытием View.
     override func viewWillDisappear(_ animated: Bool) {
